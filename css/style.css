@@ -1,0 +1,142 @@
+body {
+    background-image: url("../images/maze.png");
+    background-repeat: repeat;
+}
+.navbar {
+    height: 90px;
+    background-color: white;
+    width: 100%;
+    position: fixed;
+    top:0px;
+    left:0;
+    z-index: 15;
+}
+.navbar2 {
+    height: 92px;
+    background-color: #cccc;
+    width: 100%;
+    position: fixed;
+    top:0px;
+    left:0;
+    z-index: -5;
+}
+ul {
+    list-style-type: none;
+    
+}
+
+li {
+    float: right;
+    line-height: 75px;
+}
+.navlist {
+    width: 960px;
+    height: 90px;
+    background-color: white;
+    margin: 0 auto;
+    position: fixed;
+    top: 0;
+    left: 160px;
+
+}
+.name-box {
+    background-color: #4aaaa5;
+    width: 250px;
+    height: 90px;
+    position: fixed;
+    top: 0;
+    left: 160px;
+}
+.nav-text {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    line-height: 1.5em;
+}
+a {
+    padding: 15px;
+    color: grey;
+    text-decoration: none;
+    line-height: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a:hover {
+    opacity: 0.4;
+}
+.container {
+    width: 960px;
+    background-color: white;
+    margin: 0 auto;
+    margin-top: 110px;
+    overflow: auto;
+
+}
+.header-text {
+    color: #4aaaa5;
+    margin-left: 40px;
+
+}
+.line {
+    height: 2px;
+    background-color: #cccc;
+    width: 920px;
+    margin: 0 auto;
+    margin-top: 0px;
+    overflow: auto;
+}
+.img-main {
+    height: 200px;
+    width: 300px;
+    float: left;
+    overflow: auto;
+    margin: 15px 20px;
+}
+p {
+    padding: 10px;
+    padding-top: 20px;
+    padding-right: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #80827b;
+    line-height: 2em;
+}
+footer {
+    width: 100%;
+    height: 50px;
+    background-color: #666666;
+    position:fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 0;
+}
+.footer2 {
+    width: 100%;
+    height: 60px;
+    background-color: #4aaaa5;
+    position:fixed;
+    bottom: 0;
+    left: 0;
+    z-index: -5;
+}
+.contact-form {
+    margin: 10px 20px;
+    float: left;
+}
+.input-type {
+    float:left;
+
+}
+h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777780;
+    margin: 10px 0;
+}
+.but {
+    float: left;
+    margin: 10px 20px;
+}
+.content-box::after {
+    content: "";
+    clear: both;
+    display: table;
+}
