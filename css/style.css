@@ -112,16 +112,7 @@ footer {
     left: 0;
     z-index: 20;
     margin-top: 10px;
-}
-.footer2 {
-    width: 100%;
-    height: 55px;
-    background-color: #4aaaa5;
-    position:fixed;
-    bottom: 0;
-    left: 0;
-    z-index: 15;
-    margin-top: 10px;
+    border-top: 8px solid #4aaaa5;
 }
 .contact-form {
     margin: 10px 20px;
@@ -169,7 +160,7 @@ h4 {
     width: 320px;
     background-color: #4aaaa5;
     position: absolute;
-    left: 22px;    
+    left: 20px;    
     top: 160px;
     line-height: 1.5em;
     font-size: 28px;
@@ -192,7 +183,7 @@ h4 {
     width: 320px;
     background-color: #4aaaa5;
     position: absolute;
-    left: 22px;    
+    left: 20px;    
     top: 380px;
     line-height: 1.5em;
     font-size: 28px;
